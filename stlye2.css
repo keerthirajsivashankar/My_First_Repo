@@ -1,0 +1,27 @@
+body {
+  padding: 200px;
+  background-color: #000;
+}
+
+.parent {
+   background-color: #fff;
+   width: 100%;
+   height: 500px;
+   display: flex;
+   gap: 5px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.child {
+  background-color: #D9DD6B;
+  width: 200px;
+  height: 200px;
+}
+
+.child2 {
+  background-color: red;
+  width: 200px;
+  height: 250px;
+}

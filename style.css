@@ -1,0 +1,62 @@
+.king {
+  background-color:#FFE7A0 ;
+  color: #30A2FF;
+  border: 15px groove #000;
+  padding-left: 240px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#empire {
+  display: block;
+  display: none;
+  display:inline-block;
+  background-color: #A459D1;
+  color: #C88EA7 ;
+}
+p {
+  background-color: #F5F0BB;
+  color: #73A9AD;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  position: relative;
+  background-color: #9DB2BF;
+  color: #27374D;
+  width: 200px;
+  height: 200px;
+}
+
+.child {
+  position: absolute;
+  background-color: #EEE3CB;
+  color: #FEA1A1;
+  height: 50px;
+  width: 50px;
+  top: 10px;
+  right: 10px;
+}
+@media (min-width: 1024) {
+  body {
+    background-color: #9DB2BF;
+  }
+
+}
+body {
+  background-color: #C4DFDF;
+}
+
+@media (min-width: 2000px) {
+  body {
+    background-color: #EEE3CB;
+  }
+
+}
